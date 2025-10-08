@@ -192,7 +192,8 @@
       "custom_css": [
         ".scrolling-text__content {font-family: \"Barlow\", sans-serif; font-weight: 600; letter-spacing: 0.5px; text-transform: none; animation-timing-function: linear;}",
         ".scrolling-text__content span {padding: 0 2rem; /* espace entre les phrases */}",
-        ".scrolling-text {overflow: hidden; white-space: nowrap;}"
+        ".scrolling-text {overflow: hidden; white-space: nowrap;}",
+        ".scrolling-text__content {font-weight: 500; letter-spacing: 0.3px;}"
       ],
       "settings": {
         "full_width": true,
@@ -326,7 +327,7 @@
         "text_alignment": "center",
         "impact_text_style": "outline",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 1.1,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
