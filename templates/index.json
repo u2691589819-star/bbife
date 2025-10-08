@@ -390,7 +390,7 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "title": "💤 Le rituel du soir simplifié",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -411,7 +411,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "title": "🧸 Son allié pour retrouver le calme",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -432,7 +432,8 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/4b0377d2-a0d3-4959-b3b0-48ce133b8067.png",
+            "title": "🌈 Choisis son compagnon préféré",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -453,7 +454,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "title": "💬 Les parents en parlent",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
