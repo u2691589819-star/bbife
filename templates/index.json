@@ -15,6 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/91c1d686-320c-40d7-8452-8a24f727ddc2.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -27,7 +28,7 @@
             "button_background": "#f0c417",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 20,
             "background": "",
             "background_gradient": ""
           }
