@@ -14,25 +14,41 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_RrEDbG": {
+          "type": "message",
+          "settings": {
+            "text": "🎁 Offre spéciale aujourd’hui seulement !",
+            "url": ""
+          }
+        },
+        "message_NFxn8E": {
+          "type": "message",
+          "settings": {
+            "text": "💛 30 nuits satisfait ou remboursé",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "🌙  Livraison gratuite.",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_RrEDbG",
+        "message_NFxn8E",
         "message"
       ],
       "custom_css": [
-        ".announcement-bar {font-family: 'Poppins', sans-serif; font-weight: 500; letter-spacing: 0.3px;}"
+        ".announcement-bar {font-family: \"Poppins\", sans-serif; font-weight: 500; letter-spacing: 0.3px;}"
       ],
       "settings": {
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 6,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
