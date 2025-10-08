@@ -189,16 +189,21 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
+      "custom_css": [
+        ".scrolling-text__content {font-family: \"Barlow\", sans-serif; font-weight: 600; letter-spacing: 0.5px; text-transform: none; animation-timing-function: linear;}",
+        ".scrolling-text__content span {padding: 0 2rem; /* espace entre les phrases */}",
+        ".scrolling-text {overflow: hidden; white-space: nowrap;}"
+      ],
       "settings": {
         "full_width": true,
-        "text": "Livraison offerte | Confort et sérénité pour des nuits paisibles | Satisfait ou remboursé 30 jours",
+        "text": "Livraison offerte  🇫🇷 | Le coussin Calmi™ : des nuits paisibles pour les petits rêveurs 🌙 | Satisfait ou remboursé pendant 30 jours ❤️",
         "text_size": "large",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": "#f4dadf",
+        "text_color": "#1a1a1a",
         "text_gradient": ""
       }
     },
@@ -319,7 +324,7 @@
         "full_width": true,
         "stack_mobile": true,
         "text_alignment": "center",
-        "impact_text_style": "fill",
+        "impact_text_style": "outline",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
         "background": "",
