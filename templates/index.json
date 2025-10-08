@@ -322,17 +322,22 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
+      "custom_css": [
+        ".impact-text__text {font-family: 'Barlow', sans-serif; font-weight: 600; letter-spacing: 0.5px;}",
+        ".impact-text__subtext {font-family: 'Barlow', sans-serif; font-weight: 400; font-size: 16px; line-height: 1.5; color: #1A1A1A; max-width: 600px; margin: 0 auto;}",
+        ".impact-text__button {border-radius: 50px; font-weight: 500; padding: 12px 28px;}"
+      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
         "text_alignment": "center",
-        "impact_text_style": "outline",
+        "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1.1,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "heading_gradient": "",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
