@@ -9,24 +9,32 @@
  */
 {
   "current": {
-    "section_vertical_spacing": "medium",
+    "section_vertical_spacing": "large",
     "button_border_radius": 60,
     "input_border_radius": 8,
     "block_border_radius": 24,
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
-    "background": "#f0f0f0",
-    "text_color": "#1a1a1a",
-    "header_background": "#f0f0f0",
-    "header_text_color": "#1a1a1a",
-    "footer_background": "#ffffff",
-    "footer_text_color": "#1a1a1a",
-    "primary_button_background": "#1a1a1a",
-    "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#f0c417",
-    "secondary_button_text_color": "#1a1a1a",
-    "product_card_text_color": "#1a1a1a",
-    "product_primary_badge_background": "#803cee",
+    "block_shadow_blur": 60,
+    "background": "#faf9f7",
+    "text_color": "#4a4a4a",
+    "success_color": "#a3c9a8",
+    "warning_color": "#f5e6a1",
+    "error_color": "#efa5a5",
+    "header_background": "#b7c9e2",
+    "header_text_color": "#4a4a4a",
+    "footer_background": "#f4dadf",
+    "footer_text_color": "#4a4a4a",
+    "dialog_background": "#faf9f7",
+    "primary_button_background": "#f5e6a1",
+    "primary_button_text_color": "#4a4a4a",
+    "secondary_button_background": "#b7c9e2",
+    "secondary_button_text_color": "#4a4a4a",
+    "product_card_text_color": "#4a4a4a",
+    "product_rating_color": "#f5e6a1",
+    "product_on_sale_accent": "#f4dadf",
+    "product_sold_out_badge_background": "#b7c9e2",
+    "product_primary_badge_background": "#f5e6a1",
     "heading_font": "poppins_n6",
     "heading_font_size": "large",
     "heading_letter_spacing": -2,
@@ -138,8 +146,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Hover du bouton principal */button:hover,.shopify-payment-button__button:hover,.button--primary:hover {background-color: #9AB4CC !important; /* Bleu brume foncé */ color: #FFFFFF !important; /* Texte blanc pour contraste */ transition: all 0.3s ease;}",
-      "/* Hover du bouton secondaire */.button--secondary:hover {background-color: #F4DADF !important; /* Rose poudré */ color: #4A4A4A !important; transition: all 0.3s ease;}"
+      "/* Hover du bouton principal */button:hover,.shopify-payment-button__button:hover,.button--primary:hover {background-color: #9ab4cc !important; /* Bleu brume foncé */ color: #ffffff !important; /* Texte blanc pour contraste */ transition: all 0.3s ease;}",
+      "/* Hover du bouton secondaire */.button--secondary:hover {background-color: #f4dadf !important; /* Rose poudré */ color: #4a4a4a !important; transition: all 0.3s ease;}"
     ]
   }
 }
