@@ -309,8 +309,8 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "title": "Des nuits paisibles, des enfants apaisés 🌙",
+            "subheading": "Le coussin sensoriel Calmi™ aide les enfants à mieux dormir, à se détendre et à se sentir en sécurité.",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -323,8 +323,8 @@
         "1664424181b38582d5-0"
       ],
       "custom_css": [
-        ".impact-text__text {font-family: 'Barlow', sans-serif; font-weight: 600; letter-spacing: 0.5px;}",
-        ".impact-text__subtext {font-family: 'Barlow', sans-serif; font-weight: 400; font-size: 16px; line-height: 1.5; color: #1A1A1A; max-width: 600px; margin: 0 auto;}",
+        ".impact-text__text {font-family: \"Barlow\", sans-serif; font-weight: 600; letter-spacing: 0.5px;}",
+        ".impact-text__subtext {font-family: \"Barlow\", sans-serif; font-weight: 400; font-size: 16px; line-height: 1.5; color: #1a1a1a; max-width: 600px; margin: 0 auto;}",
         ".impact-text__button {border-radius: 50px; font-weight: 500; padding: 12px 28px;}"
       ],
       "settings": {
