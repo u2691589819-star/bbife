@@ -154,22 +154,22 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "h1,h2,h3,h4,h5{font-family:'Poppins',sans-serif!important;color:#4A4A4A!important}",
-      "p,span,li,a,label{font-family:'Nunito Sans',sans-serif!important;color:#4A4A4A!important;line-height:1.6}",
-      ".button,button{border-radius:60px!important;font-family:'Poppins',sans-serif!important;font-weight:500!important;transition:.3s;box-shadow:0 6px 20px rgba(183,201,226,.25);background:#B7C9E2!important;color:#fff!important}",
-      ".button:hover,button:hover{transform:scale(1.03);box-shadow:0 8px 30px rgba(183,201,226,.35);background:#F4DADF!important}",
-      ".product-card,.card{border-radius:24px;overflow:hidden;transition:.3s;box-shadow:0 4px 20px rgba(200,200,200,.15);background:#fff}",
-      ".product-card:hover{transform:translateY(-4px);box-shadow:0 6px 24px rgba(180,190,200,.25)}",
-      ".product-card img{transition:.4s;border-radius:16px}",
-      ".product-card img:hover{transform:scale(1.03)}",
-      ".badge--sale{background:#F5E6A1!important;color:#4A4A4A!important;border-radius:40px!important;font-weight:600}",
-      ".badge--sold-out{background:#F4DADF!important;color:#fff!important;border-radius:40px!important;font-weight:600}",
-      ".header{background:rgba(255,255,255,.85);backdrop-filter:blur(8px);transition:.3s}",
-      ".header:hover{background:rgba(255,255,255,.95)}",
-      ".header__menu-item a{color:#4A4A4A!important;font-weight:500}",
-      ".header__menu-item a:hover{color:#B7C9E2!important}",
-      ".footer{background:#F9FAFB;color:#4A4A4A;font-family:'Nunito Sans',sans-serif}",
-      ".footer a:hover{color:#B7C9E2}"
+      "h1,h2,h3,h4,h5 {font-family: \"Poppins\", sans-serif !important; color: #4a4a4a !important;}",
+      "p,span,li,a,label {font-family: \"Nunito Sans\", sans-serif !important; color: #4a4a4a !important; line-height: 1.6;}",
+      ".button,button {border-radius: 60px !important; font-family: \"Poppins\", sans-serif !important; font-weight: 500 !important; transition: 0.3s; box-shadow: 0 6px 20px rgba(183, 201, 226, 0.25); background: #b7c9e2 !important; color: #fff !important;}",
+      ".button:hover,button:hover {transform: scale(1.03); box-shadow: 0 8px 30px rgba(183, 201, 226, 0.35); background: #f4dadf !important;}",
+      ".product-card,.card {border-radius: 24px; overflow: hidden; transition: 0.3s; box-shadow: 0 4px 20px rgba(200, 200, 200, 0.15); background: #fff;}",
+      ".product-card:hover {transform: translateY(-4px); box-shadow: 0 6px 24px rgba(180, 190, 200, 0.25);}",
+      ".product-card img {transition: 0.4s; border-radius: 16px;}",
+      ".product-card img:hover {transform: scale(1.03);}",
+      ".badge--sale {background: #f5e6a1 !important; color: #4a4a4a !important; border-radius: 40px !important; font-weight: 600;}",
+      ".badge--sold-out {background: #f4dadf !important; color: #fff !important; border-radius: 40px !important; font-weight: 600;}",
+      ".header {background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); transition: 0.3s;}",
+      ".header:hover {background: rgba(255, 255, 255, 0.95);}",
+      ".header__menu-item a {color: #4a4a4a !important; font-weight: 500;}",
+      ".header__menu-item a:hover {color: #b7c9e2 !important;}",
+      ".footer {background: #f9fafb; color: #4a4a4a; font-family: \"Nunito Sans\", sans-serif;}",
+      ".footer a:hover {color: #b7c9e2;}"
     ]
   }
 }

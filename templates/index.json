@@ -349,13 +349,13 @@
         "1664424230c4756b0e-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Avec Calmi™, votre enfant s’endort sereinement, entouré de douceur et de sécurité"
           }
         },
         "1664424230c4756b0e-1": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "Le rituel du soir devient un moment de tendresse 🌙",
             "heading_tag": "h1"
           }
         },
@@ -376,11 +376,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/2bca749c-117a-4c24-b5de-77e84ef2bc85.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 29
       }
     },
     "media-grid": {
