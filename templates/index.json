@@ -18,14 +18,14 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "Calmi aide les enfants à s’endormir plus vite et à se sentir en sécurité.",
+            "title": "Le coussin apaisant qui aide les enfants à mieux dormir 🌙",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "Découvrir Calmi",
             "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "text_color": "#1a1a1a",
+            "button_background": "#f0c417",
+            "button_text_color": "#1a1a1a",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
@@ -38,10 +38,10 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "Conçu pour apaiser les enfants anxieux, stressés ou agités avant le coucher.Adopté par des centaines de familles apaisées.",
+            "title": "Une aide naturelle pour calmer les petits esprits agités 💛",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "Voir les avis",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -51,17 +51,38 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_MM4z8y": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "acile à entretenir, doux pour la peau et durable dans le temps.Pensé pour accompagner votre enfant dans chaque moment de calme.",
+            "title": "Housse lavable, tissu respirant, garnissage doux 🧵",
+            "heading_tag": "h0",
+            "button_text": "Découvrir la collection",
+            "button_link": "",
+            "text_color": "#1a1a1a",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "slide-1",
-        "slide-2"
+        "slide-2",
+        "image_MM4z8y"
       ],
       "custom_css": [
-        ".slideshow__text h2 {font-family: 'Poppins', sans-serif; font-weight: 600; color: #1A1A1A; letter-spacing: -0.5px;}",
-        ".slideshow__text p {font-family: 'Poppins', sans-serif; color: #4A4A4A; opacity: 0.9;}",
-        ".slideshow__button {background-color: #1A1A1A; color: #FFFFFF; border-radius: 60px; padding: 10px 28px; font-size: 15px; transition: all 0.3s ease;}",
-        ".slideshow__button:hover {background-color: #F0C417; color: #1A1A1A;}"
+        ".slideshow__text h2 {font-family: \"Poppins\", sans-serif; font-weight: 600; color: #1a1a1a; letter-spacing: -0.5px;}",
+        ".slideshow__text p {font-family: \"Poppins\", sans-serif; color: #4a4a4a; opacity: 0.9;}",
+        ".slideshow__button {background-color: #1a1a1a; color: #ffffff; border-radius: 60px; padding: 10px 28px; font-size: 15px; transition: all 0.3s ease;}",
+        ".slideshow__button:hover {background-color: #f0c417; color: #1a1a1a;}"
       ],
       "settings": {
         "full_width": true,
