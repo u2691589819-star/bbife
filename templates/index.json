@@ -204,7 +204,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "#1a1a1a",
-        "text_gradient": ""
+        "text_gradient": "linear-gradient(180deg, rgba(240, 196, 23, 1), rgba(248, 163, 163, 1) 100%)"
       }
     },
     "collection-list": {
