@@ -57,10 +57,11 @@
         "image_MM4z8y": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/2d49c0c7-f818-40c7-a627-fbcdf53e38d2.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "acile à entretenir, doux pour la peau et durable dans le temps.Pensé pour accompagner votre enfant dans chaque moment de calme.",
+            "subheading": "Facile à entretenir, doux pour la peau et durable dans le temps.Pensé pour accompagner votre enfant dans chaque moment de calme.",
             "title": "Housse lavable, tissu respirant, garnissage doux 🧵",
             "heading_tag": "h0",
             "button_text": "Découvrir la collection",
@@ -68,8 +69,8 @@
             "text_color": "#1a1a1a",
             "button_background": "#f0c417",
             "button_text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 34,
             "background": "",
             "background_gradient": ""
           }
