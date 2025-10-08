@@ -25,9 +25,12 @@
       "block_order": [
         "message"
       ],
+      "custom_css": [
+        ".announcement-bar {font-family: 'Poppins', sans-serif; font-weight: 500; letter-spacing: 0.3px;}"
+      ],
       "settings": {
-        "enable_sticky": false,
-        "autoplay": false,
+        "enable_sticky": true,
+        "autoplay": true,
         "cycle_speed": 6,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
