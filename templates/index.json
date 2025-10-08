@@ -16,8 +16,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/91c1d686-320c-40d7-8452-8a24f727ddc2.png",
+            "mobile_image": "shopify://shop_images/fcfadde5-0347-41d3-91fd-38faa7374d1e.png",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Calmi aide les enfants à s’endormir plus vite et à se sentir en sécurité.",
             "title": "Le coussin apaisant qui aide les enfants à mieux dormir 🌙",
@@ -28,7 +29,7 @@
             "button_background": "#f0c417",
             "button_text_color": "#ffffff",
             "overlay_color": "#ffffff",
-            "overlay_opacity": 19,
+            "overlay_opacity": 23,
             "background": "",
             "background_gradient": ""
           }
@@ -190,14 +191,14 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
+        "text": "Livraison offerte | Confort et sérénité pour des nuits paisibles | Satisfait ou remboursé 30 jours",
         "text_size": "large",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#f0c417",
         "text_gradient": ""
       }
     },
