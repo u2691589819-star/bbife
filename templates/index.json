@@ -29,7 +29,7 @@
             "button_background": "#f0c417",
             "button_text_color": "#ffffff",
             "overlay_color": "#ffffff",
-            "overlay_opacity": 23,
+            "overlay_opacity": 16,
             "background": "",
             "background_gradient": ""
           }
@@ -92,7 +92,7 @@
         "full_width": true,
         "allow_transparent_header": true,
         "show_initial_transition": false,
-        "image_size": "auto",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
