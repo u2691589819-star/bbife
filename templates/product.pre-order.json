@@ -191,14 +191,76 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "custom_liquid_mMQmwr": {
+    "multi_column_3CygmH": {
+      "type": "multi-column",
+      "blocks": {
+        "item_EXNM7d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/b26b8a1f-c69e-478e-a136-4ad34e9729ad.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RbtYqA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/c51cd330-a8c5-4c15-9d6d-efbd81dc0bf2.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_crA9zc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/e234444a-1b9f-4942-a696-e4b0845e98a9.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_EXNM7d",
+        "item_RbtYqA",
+        "item_crA9zc"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Et ce, dans n’importe quelle position",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_J6gebf": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "{% comment %}\n  Section : Trois images rondes avec titre et texte - Style Calmi™ / Mélyoo\n{% endcomment %}\n<section class=\"calmi-positions-section\">\n  <div class=\"container\">\n    <h2 class=\"calmi-title\">\n      Et ce , dans <span>n’importe quelle position</span>\n    </h2>\n    <p class=\"calmi-subtitle\">\n       Que votre enfant dorme sur le côté, sur le dos ou sur le ventre.\n    </p>\n\n    <div class=\"calmi-positions-grid\">\n      <div class=\"calmi-position\">\n        <img src=\"{{ 'dormeur-lateral.jpg' | asset_url }}\" alt=\"Dormeur latéral\">\n        <p>Dormeur latéral</p>\n      </div>\n      <div class=\"calmi-position\">\n        <img src=\"{{ 'dormeur-dos.jpg' | asset_url }}\" alt=\"Dormeur sur le dos\">\n        <p>Dormeur sur le dos</p>\n      </div>\n      <div class=\"calmi-position\">\n        <img src=\"{{ 'dormeur-ventre.jpg' | asset_url }}\" alt=\"Dormeur sur le ventre\">\n        <p>Dormeur sur le ventre</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n.calmi-positions-section {\n  text-align: center;\n  background: #fff;\n  padding: 60px 20px;\n  font-family: 'Poppins', sans-serif;\n}\n\n.calmi-title {\n  font-size: 28px;\n  font-weight: 600;\n  color: #2b2b2b;\n  margin-bottom: 10px;\n}\n\n.calmi-title span {\n  color: #e6aeb8; /* rose doux Calmi™ */\n}\n\n.calmi-subtitle {\n  font-size: 16px;\n  color: #555;\n  margin-bottom: 50px;\n  font-style: italic;\n}\n\n.calmi-positions-grid {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  gap: 40px;\n}\n\n.calmi-position {\n  width: 300px;\n}\n\n.calmi-position img {\n  width: 100%;\n  aspect-ratio: 1 / 1;\n  object-fit: cover;\n  border-radius: 50%;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.08);\n  transition: transform 0.3s ease;\n}\n\n.calmi-position img:hover {\n  transform: scale(1.02);\n}\n\n.calmi-position p {\n  margin-top: 15px;\n  font-size: 16px;\n  color: #333;\n  font-weight: 500;\n}\n</style>",
+        "liquid": "{% comment %}\nSection : Avis Clients Défilants - Style Calmi™ / Mélyoo\n{% endcomment %}\n\n<section class=\"calmi-reviews-section\">\n  <div class=\"container\">\n    <h2 class=\"calmi-title\">\n      Les parents <span>en parlent</span>\n    </h2>\n    <p class=\"calmi-subtitle\">\n      Des nuits plus paisibles, des enfants apaisés 🌙\n    </p>\n\n    <div class=\"calmi-reviews-container\">\n      <!-- Ligne 1 -->\n      <div class=\"calmi-reviews-slider\">\n        {% for i in (1..5) %}\n        <div class=\"calmi-card\">\n          <img src=\"https://randomuser.me/api/portraits/women/{{ i }}.jpg\" alt=\"Parent {{ i }}\">\n          <p>“Mon enfant s’endort plus vite chaque soir 💫”</p>\n        </div>\n        {% endfor %}\n\n        <!-- Duplication pour boucle fluide -->\n        {% for i in (1..5) %}\n        <div class=\"calmi-card\">\n          <img src=\"https://randomuser.me/api/portraits/women/{{ i }}.jpg\" alt=\"Parent {{ i }}\">\n          <p>“Mon enfant s’endort plus vite chaque soir 💫”</p>\n        </div>\n        {% endfor %}\n      </div>\n\n      <!-- Ligne 2 (sens inverse) -->\n      <div class=\"calmi-reviews-slider reverse\">\n        {% for i in (6..10) %}\n        <div class=\"calmi-card\">\n          <img src=\"https://randomuser.me/api/portraits/men/{{ i }}.jpg\" alt=\"Parent {{ i }}\">\n          <p>“Un vrai moment de calme avant le coucher ✨”</p>\n        </div>\n        {% endfor %}\n\n        <!-- Duplication pour boucle fluide -->\n        {% for i in (6..10) %}\n        <div class=\"calmi-card\">\n          <img src=\"https://randomuser.me/api/portraits/men/{{ i }}.jpg\" alt=\"Parent {{ i }}\">\n          <p>“Un vrai moment de calme avant le coucher ✨”</p>\n        </div>\n        {% endfor %}\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n.calmi-reviews-section {\n  background-color: #f8f4f1;\n  padding: 70px 20px;\n  text-align: center;\n  font-family: 'Poppins', sans-serif;\n  overflow: hidden;\n}\n\n.calmi-title {\n  font-size: 28px;\n  font-weight: 600;\n  color: #3a2f2f;\n  margin-bottom: 10px;\n}\n\n.calmi-title span {\n  color: #e6aeb8; /* rose apaisant Calmi™ */\n  font-style: italic;\n}\n\n.calmi-subtitle {\n  font-size: 16px;\n  color: #7a6b67;\n  margin-bottom: 50px;\n  font-style: italic;\n}\n\n.calmi-reviews-container {\n  display: flex;\n  flex-direction: column;\n  gap: 25px;\n}\n\n.calmi-reviews-slider {\n  display: flex;\n  gap: 20px;\n  animation: scroll-left 30s linear infinite;\n}\n\n.calmi-reviews-slider.reverse {\n  animation: scroll-right 30s linear infinite;\n}\n\n.calmi-card {\n  background-color: #fff;\n  border-radius: 24px;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.06);\n  padding: 12px 20px;\n  display: flex;\n  align-items: center;\n  min-width: max-content;\n  white-space: nowrap;\n  transition: transform 0.3s ease;\n}\n\n.calmi-card:hover {\n  transform: scale(1.03);\n}\n\n.calmi-card img {\n  width: 45px;\n  height: 45px;\n  border-radius: 50%;\n  margin-right: 15px;\n  border: 2px solid #f8e3e3;\n}\n\n.calmi-card p {\n  font-size: 15px;\n  color: #5c4b47;\n  margin: 0;\n}\n\n/* Animation défilement */\n@keyframes scroll-left {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n\n@keyframes scroll-right {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(100%); }\n}\n\n/* Version mobile */\n@media (max-width: 768px) {\n  .calmi-reviews-slider {\n    animation: scroll-left 15s linear infinite;\n  }\n\n  .calmi-reviews-slider.reverse {\n    animation: scroll-right 15s linear infinite;\n  }\n\n  .calmi-title {\n    font-size: 22px;\n  }\n\n  .calmi-subtitle {\n    font-size: 14px;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -210,6 +272,7 @@
     "video_cwDfmF",
     "1760021299ba50d124",
     "before_after_image_mEByek",
-    "custom_liquid_mMQmwr"
+    "multi_column_3CygmH",
+    "custom_liquid_J6gebf"
   ]
 }
