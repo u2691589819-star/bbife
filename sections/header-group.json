@@ -11,33 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "header": {
-      "type": "header",
-      "custom_css": [],
-      "settings": {
-        "enable_sticky": true,
-        "hide_on_scroll": false,
-        "logo": "shopify://shop_images/0a01fdef-3179-4511-b365-c1c98d0ec71b_5de639b5-7dae-4187-b531-0e279b41e0a4.png",
-        "logo_max_width": 185,
-        "logo_mobile_max_width": 120,
-        "menu": "main-menu",
-        "sidebar_menu": "main-menu",
-        "secondary_menu": "",
-        "menu_open_trigger": "click",
-        "opening_from": "left",
-        "layout": "logo_left_navigation_center",
-        "show_social_media": true,
-        "show_locale_selector": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/0a01fdef-3179-4511-b365-c1c98d0ec71b_5de639b5-7dae-4187-b531-0e279b41e0a4.png",
-        "reduce_padding": true,
-        "background_opacity": 70,
-        "background_blur_radius": 4
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -81,6 +54,33 @@
         "background": "#1a1a1a",
         "background_gradient": "",
         "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/0a01fdef-3179-4511-b365-c1c98d0ec71b_5de639b5-7dae-4187-b531-0e279b41e0a4.png",
+        "logo_max_width": 245,
+        "logo_mobile_max_width": 120,
+        "menu": "main-menu",
+        "sidebar_menu": "main-menu",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/0a01fdef-3179-4511-b365-c1c98d0ec71b_5de639b5-7dae-4187-b531-0e279b41e0a4.png",
+        "reduce_padding": true,
+        "background_opacity": 68,
+        "background_blur_radius": 4
       }
     }
   },
