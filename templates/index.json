@@ -82,12 +82,7 @@
         "slide-2",
         "image_MM4z8y"
       ],
-      "custom_css": [
-        ".slideshow__text h2 {font-family: \"Poppins\", sans-serif; font-weight: 600; color: #1a1a1a; letter-spacing: -0.5px;}",
-        ".slideshow__text p {font-family: \"Poppins\", sans-serif; color: #4a4a4a; opacity: 0.9;}",
-        ".slideshow__button {background-color: #1a1a1a; color: #ffffff; border-radius: 60px; padding: 10px 28px; font-size: 15px; transition: all 0.3s ease;}",
-        ".slideshow__button:hover {background-color: #f0c417; color: #1a1a1a;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
