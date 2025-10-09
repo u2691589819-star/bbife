@@ -390,6 +390,7 @@
         "item-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/376afa14-e93b-4d2e-a3b0-39152322e062.webp",
             "title": "💤 Le rituel du soir simplifié",
             "heading_tag": "h4",
             "link_url": "",
@@ -411,6 +412,7 @@
         "item-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/c51cd330-a8c5-4c15-9d6d-efbd81dc0bf2.png",
             "title": "🧸 Son allié pour retrouver le calme",
             "heading_tag": "h4",
             "link_url": "",
@@ -454,6 +456,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/e234444a-1b9f-4942-a696-e4b0845e98a9.png",
             "title": "💬 Les parents en parlent",
             "heading_tag": "h4",
             "link_url": "",
