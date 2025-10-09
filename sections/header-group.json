@@ -61,7 +61,8 @@
       "custom_css": [],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/cc93a0a4-52ac-4c1f-a4e1-19c8572b931d.webp",
         "logo_max_width": 220,
         "logo_mobile_max_width": 120,
         "menu": "main-menu",
@@ -77,8 +78,8 @@
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": true,
-        "background_opacity": 0,
-        "background_blur_radius": 8
+        "background_opacity": 48,
+        "background_blur_radius": 0
       }
     }
   },

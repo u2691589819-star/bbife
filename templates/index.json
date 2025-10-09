@@ -59,7 +59,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2d49c0c7-f818-40c7-a627-fbcdf53e38d2.png",
-            "content_max_width": 780,
+            "content_max_width": 820,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Facile à entretenir, doux pour la peau et durable dans le temps.Pensé pour accompagner votre enfant dans chaque moment de calme.",
@@ -67,7 +67,7 @@
             "heading_tag": "h0",
             "button_text": "Découvrir la collection",
             "button_link": "",
-            "text_color": "#1a1a1a",
+            "text_color": "#faf9f7",
             "button_background": "#f0c417",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#ffffff",
@@ -343,47 +343,6 @@
         "button_text_color": ""
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Avec Calmi™, votre enfant s’endort sereinement, entouré de douceur et de sécurité"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Le rituel du soir devient un moment de tendresse 🌙",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify://shop_images/2bca749c-117a-4c24-b5de-77e84ef2bc85.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 29
-      }
-    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -491,12 +450,46 @@
         "background_gradient": ""
       }
     },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Avec Calmi™, votre enfant s’endort sereinement, entouré de douceur et de sécurité"
+          }
+        },
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Le rituel du soir devient un moment de tendresse 🌙",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/2bca749c-117a-4c24-b5de-77e84ef2bc85.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 29
+      }
+    },
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Before/after",
+        "title": "Calmi™ vs Oreillers ordinaires",
         "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
         "expand_image": false,
         "text_position": "center",
@@ -819,8 +812,8 @@
     "collection-list",
     "featured-collection",
     "impact-text",
-    "image-with-text-overlay",
     "media-grid",
+    "image-with-text-overlay",
     "before-after-image",
     "press",
     "hot-spots",
