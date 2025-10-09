@@ -143,10 +143,59 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "1760021299ba50d124": {
+      "type": "apps",
+      "blocks": {
+        "shop_shop_login_button_app_block_ecBACq": {
+          "type": "shopify://apps/shop/blocks/shop-login-button-app-block/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "shop_shop_login_button_app_block_ecBACq"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_mEByek": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "💫 Calmi™, bien plus qu’un coussin",
+        "content": "<p>Le coussin <strong>apaise naturellement</strong> et <strong>soutient la tête et le cou</strong> de l’enfant de façon ergonomique. Ainsi, il ressent <strong>moins de stress</strong>, dort <strong>plus profondément</strong> et grandit <strong>plus sereinement</strong>..</p>",
+        "before_image": "shopify://shop_images/45fa9cd6-9705-492b-9f17-085e67ed8c49.png",
+        "before_image_mobile": "shopify://shop_images/45fa9cd6-9705-492b-9f17-085e67ed8c49.png",
+        "after_image": "shopify://shop_images/6d9c0786-9036-498b-b668-f70f628d2c21.png",
+        "after_image_mobile": "shopify://shop_images/6d9c0786-9036-498b-b668-f70f628d2c21.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
     }
   },
   "order": [
     "main",
-    "video_cwDfmF"
+    "video_cwDfmF",
+    "1760021299ba50d124",
+    "before_after_image_mEByek"
   ]
 }
