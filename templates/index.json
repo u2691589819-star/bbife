@@ -46,11 +46,11 @@
             "heading_tag": "h0",
             "button_text": "Voir les avis",
             "button_link": "",
-            "text_color": "#1a1a1a",
+            "text_color": "#faf9f7",
             "button_background": "#f0c417",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#ffffff",
-            "overlay_opacity": 43,
+            "overlay_opacity": 15,
             "background": "",
             "background_gradient": ""
           }
